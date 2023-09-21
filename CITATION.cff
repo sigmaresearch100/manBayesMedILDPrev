@@ -1,0 +1,45 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.5.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "manBayesMedILDPrev" in publications use:'
+type: software
+license: MIT
+title: 'manBayesMedILDPrev: Bayesian Mediation Modeling for Intensive Longitudinal
+  Data in Prevention Science'
+version: 0.9.2
+doi: 10.0000/0000000000
+abstract: Research compendium for the manuscript Melon, B., et al. (2023). Bayesian
+  Mediation Modeling for Intensive Longitudinal Data in Prevention Science. <doi:10.0000/0000000000>.
+authors:
+- family-names: Melon
+  given-names: Blind
+  email: r.sigmaresearch100@gmail.com
+  orcid: https://orcid.org/0000-0000-0000-0000
+preferred-citation:
+  type: article
+  title: Bayesian Mediation Modeling for Intensive Longitudinal Data in Prevention
+    Science
+  authors:
+  - family-names: Melon
+    given-names: Blind
+    email: r.sigmaresearch100@gmail.com
+    orcid: https://orcid.org/0000-0000-0000-0000
+  year: '2023'
+  doi: 10.0000/0000000000
+  journal: JOURNAL_TITLE_HERE
+  notes: R package version 0.9.2
+repository-code: https://github.com/sigmaresearch100/manBayesMedILDPrev
+url: https://sigmaresearch100.github.io/manBayesMedILDPrev/
+contact:
+- family-names: Melon
+  given-names: Blind
+  email: r.sigmaresearch100@gmail.com
+  orcid: https://orcid.org/0000-0000-0000-0000
+identifiers:
+- type: url
+  value: https://osf.io/zae7s/?view_only=9d2d5366d7624f95beca835cd7315c38
+- type: url
+  value: https://doi.org/10.0000/0000000000

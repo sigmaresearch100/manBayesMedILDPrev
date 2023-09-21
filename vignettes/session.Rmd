@@ -22,8 +22,8 @@ knitr::opts_chunk$set(
 if (!require("remotes")) install.packages("remotes")
 # TODO: add packages and versions used here
 remotes::install_version(
-    package = "MASS",
-    version = "7.3-58.1"
+  package = "MASS",
+  version = "7.3-58.1"
 )
 ```
 
