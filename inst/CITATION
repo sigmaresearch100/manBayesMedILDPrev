@@ -1,0 +1,41 @@
+year <- 2023
+author_text <- "Melon. B."
+pkg <- meta$Package
+title <- meta$Title
+version <- meta$Version
+author <- c(
+  person(
+    given = "Blind",
+    family = "Melon",
+    role = c("aut", "cre", "cph"),
+    email = "r.sigmaresearch100@gmail.com",
+    comment = c(ORCID = "0000-0000-0000-0000")
+  )
+)
+note <- sprintf(
+  "R package version %s",
+  meta$Version
+)
+url <- "https://github.com/sigmaresearch100/manBayesMedILDPrev"
+
+bibentry(
+  bibtype = "Article",
+  author = author,
+  title = title,
+  year = year,
+  doi = "10.0000/0000000000",
+  journal = "JOURNAL_TITLE_HERE",
+  note = note,
+  textVersion = paste0(
+    author_text, " ",
+    "(", year, ")", ".", " ",
+    title, ".", " ",
+    "JOURNAL_TITLE_HERE", ".", " ",
+    "https://doi.org/10.0000/0000000000", " "
+  ),
+  header = paste(
+    "To cite",
+    pkg,
+    "in publications, please use:"
+  )
+)
