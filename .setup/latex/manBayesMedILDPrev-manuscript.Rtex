@@ -1,0 +1,104 @@
+\documentclass[man]{apa7}
+
+\usepackage[american]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{blkarray}
+\usepackage{csquotes}
+\usepackage{endnotes}
+\usepackage{setspace}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLATEX APA
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% begin.rcode
+% #| label = "root",
+% #| include = FALSE
+% root <- rprojroot::is_rstudio_project
+%% end.rcode
+
+%% begin.rcode
+% #| label = "knitr",
+% #| include = FALSE,
+% #| file = root$find_file(
+% #|   ".setup",
+% #|   "latex",
+% #|   "r-scripts",
+% #|   "knitr.R"
+% #| )
+%% end.rcode
+
+%% begin.rcode
+% #| label = "biblatex",
+% #| echo = FALSE,
+% #| message = FALSE,
+% #| warning = FALSE,
+% #| results = "asis"
+% if (require("rProject")) {
+%   Bib(
+%     path = dirname(
+%       root$find_file(
+%         "project.Rproj"
+%       )
+%     )
+%   )
+%   cat(
+%     .PreambleBiblatex(
+%       path = root$find_file(
+%         ".setup",
+%         "latex",
+%         "bib"
+%       )
+%     )
+%   )
+% } else {
+%   cat(
+%     .PreambleBiblatexCombined(
+%       path = root$find_file(
+%         ".setup",
+%         "latex",
+%         "bib"
+%       ),
+%       output_path = root$find_file(
+%         ".setup",
+%         "latex"
+%       )
+%     )
+%   )
+% }
+%% end.rcode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{Bayesian Mediation Modeling for Intensive Longitudinal Data in Prevention Science}
+\shorttitle{Bayesian Mediation}
+
+\author{Blind Melon}
+\affiliation{Department of Prevention Science, University of Prevention}
+
+\leftheader{Melon}
+
+\abstract{TODO: Write the abstract here.}
+
+\keywords{
+	Bayesian
+}
+
+\authornote{
+  \addORCIDlink{Blind Melon}{0000-0000-0000-0000};
+}
+
+\begin{document}
+
+\maketitle
+
+\section{Open Practices Statement}
+
+The data and materials for this study are available on OSF (\url{https://osf.io/zae7s/?view_only=9d2d5366d7624f95beca835cd7315c38}) and GitHub (\url{https://github.com/sigmaresearch100/manBayesMedILDPrev}, \url{https://sigmaresearch100.github.io/manBayesMedILDPrev/index.html}).
+
+\printbibliography
+
+\newpage
+
+\end{document}
